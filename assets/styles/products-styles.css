@@ -1,0 +1,9 @@
+body {
+  background-color: darkgray;
+}
+
+.card-content {
+  width: 70%;
+  margin: auto;
+  height: 30vh;
+}
