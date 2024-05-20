@@ -1,0 +1,10 @@
+--> Personalizar y descargar Bootstrap <--
+
+Para personalizar todos los aspectos que quieras de Bootstrap y descargar una versión hecha a medida, sigue los siguientes pasos:
+
+1) Accede al enlace https://getbootstrap.com/docs/3.4/customize/ (para la versión 3.4, recuerda que actualmente estamos en la versión 5.3). En la clase de SASS intentaremos personalizar por nuestra cuenta la versión más reciente de Bootstrap.
+2) Personaliza cada una de las secciones que gustes, por ejemplo la de colores https://getbootstrap.com/docs/3.4/customize/#colors (la herramienta no es visual, deberás copiar los códigos hexadecimal de una paleta y ponerlos en las secciones que consideres necesario, por ejemplo success, danger, warning, etc.)
+
+P:D/ te puedo recomendar la siguiente herramienta online para seleccionar colores y poder ver sus previsualizaciones https://g.co/kgs/gmVbWLh
+
+3) Una vez hayas logrado personalizar cada uno de sus aspectos vas al final de la página y le das clic al botón compilar y descargar.

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplos de inputs para búsquedas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./../assets/styles/searchInputs.css" />
+  </head>
+  <body>
+    <h5>Ejemplo 1: Input con icono ilustrativo al final</h5>
+    <div class="px-2 mt-4">
+      <div class="mb-6 pr-4 flex items-center border rounded-lg">
+        <input
+          id="search-bs-class-1"
+          class="py-4 pl-4 mr-4 w-full placeholder-blueGray-400 bg-white focus:outline-none border-0 rounded-l-lg"
+          type="text"
+          placeholder="Este es un input con un SVG sin acción"
+          value=""
+        />
+        <svg
+          class="w-5 h-5 text-brand-blue"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <h5>Ejemplo 2: Input con icono ilustrativo al principio</h5>
+    <div class="px-2 mt-4">
+      <div class="mb-6 pr-4 flex items-center border rounded-lg">
+        <svg
+          class="w-5 h-5 text-brand-blue"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          ></path>
+        </svg>
+        <input
+          id="search-bs-class-2"
+          class="py-4 pl-4 mr-4 w-full placeholder-blueGray-400 bg-white focus:outline-none border-0 rounded-l-lg"
+          type="text"
+          placeholder="Este es un input con un SVG sin acción"
+          value=""
+        />
+      </div>
+    </div>
+
+    <h5>Ejemplo 3: Input con boton de acción al final</h5>
+    <form>
+      <div class="px-2 mt-4">
+        <div class="mb-6 pr-4 flex items-center border rounded-lg">
+          <input
+            id="search-bs-class-3"
+            class="py-4 pl-4 mr-4 w-full placeholder-blueGray-400 bg-white focus:outline-none border-0 rounded-l-lg"
+            type="text"
+            placeholder="Este es un input con un button con acción"
+            value=""
+          />
+          <button class="btn my-2 my-sm-0" type="submit">
+            <svg
+              class="w-5 h-5 text-brand-blue"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <h5>Ejemplo 4: Input con botón de acción al principio</h5>
+    <form>
+      <div class="px-2 mt-4">
+        <div class="mb-6 pr-4 flex items-center border rounded-lg">
+          <button class="btn my-2 my-sm-0" type="submit">
+            <svg
+              class="w-5 h-5 text-brand-blue"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              ></path>
+            </svg>
+          </button>
+          <input
+            id="search-bs-class-4"
+            class="py-4 pl-4 mr-4 w-full placeholder-blueGray-400 bg-white focus:outline-none border-0 rounded-l-lg"
+            type="text"
+            placeholder="Este es un input con un button con acción"
+            value=""
+          />
+        </div>
+      </div>
+    </form>
+
+    <h5>Ejemplo 5: Input con icono SVG al finla usando pseudoelemento after</h5>
+    <div class="px-2 mt-4">
+      <div
+        class="mb-6 flex items-center border rounded-lg"
+        id="search-bs-class-5-container"
+      >
+        <input
+          id="search-bs-class-5"
+          class="py-4 pl-4 w-full placeholder-blueGray-400 bg-white focus:outline-none border-0 rounded-l-lg"
+          type="text"
+          placeholder="Este es un input con un after string content sin acción"
+          value=""
+        />
+      </div>
+    </div>
+
+    <h5>
+      Ejemplo 6: Input con icono SVG al finla usando pseudoelemento before
+    </h5>
+    <div class="px-2 mt-4">
+      <div
+        class="mb-6 flex items-center border rounded-lg"
+        id="search-bs-class-6-container"
+      >
+        <input
+          id="search-bs-class-6"
+          class="py-4 pl-4 w-full placeholder-blueGray-400 bg-white focus:outline-none border-0 rounded-l-lg"
+          type="text"
+          placeholder="Este es un input con un before string content sin acción"
+          value=""
+        />
+      </div>
+    </div>
+
+    <style>
+      .a_demo_four {
+        background-color: #4b3f39;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        padding: 10px 20px;
+        padding-right: 50px;
+        background-image: linear-gradient(
+          bottom,
+          rgb(62, 51, 46) 0%,
+          rgb(101, 86, 78) 100%
+        );
+        border-radius: 5px;
+        box-shadow: inset 0px 1px 0px #9e8d84, 0px 5px 0px 0px #322620,
+          0px 10px 5px #999;
+      }
+
+      .a_demo_four:active {
+        top: 3px;
+        background-image: linear-gradient(
+          bottom,
+          rgb(62, 51, 46) 100%,
+          rgb(101, 86, 78) 0%
+        );
+        box-shadow: inset 0px 1px 0px #9e8d84, 0px 2px 0px 0px #322620,
+          0px 5px 3px #999;
+      }
+
+      .a_demo_four::before {
+        background-color: #322620;
+        background-image: url(../images/right_arrow.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -9px;
+        border-radius: 50%;
+        box-shadow: inset 0px 1px 0px #19120f, 0px 1px 0px #827066;
+      }
+
+      .a_demo_four:active::before {
+        top: 50%;
+        margin-top: -12px;
+        box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f,
+          0px 6px 3px #382e29;
+      }
+    </style>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
